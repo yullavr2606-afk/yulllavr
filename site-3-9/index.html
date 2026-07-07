@@ -7,7 +7,7 @@
 <meta name="description" content="Проектный офис 3/9 и эксперт по сервису Ирина Афонина: маркетинг, AI, управление и постановка сервиса под ключ.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -124,6 +124,16 @@
       <li><span>06</span>Территории</li>
     </ul>
   </section>
+
+  <!-- STATS BAR -->
+  <div class="stats-bar">
+    <div class="container stats-bar__inner">
+      <span><b>9</b> направлений работы</span>
+      <span><b>12</b> лет опыта в сервисе</span>
+      <span>команды до <b>200</b> человек</span>
+      <span>Казань · <b>2026</b></span>
+    </div>
+  </div>
 
   <!-- О СОТРУДНИЧЕСТВЕ -->
   <section class="section" id="about">
@@ -319,8 +329,10 @@
 
       <div class="grid grid--2 team-grid">
         <article class="person">
-          <div class="person__photo">
-            <img src="assets/images/yulia-portrait.jpg" alt="Юлия Лаврентьева">
+          <div class="person__photo photo-collage">
+            <div class="photo-collage__frame">
+              <img src="assets/images/yulia-portrait.jpg" alt="Юлия Лаврентьева">
+            </div>
           </div>
           <p class="eyebrow eyebrow--maroon">Проектный офис 3/9</p>
           <h3>Юлия Лаврентьева</h3>
@@ -335,8 +347,10 @@
         </article>
 
         <article class="person">
-          <div class="person__photo">
-            <img src="assets/images/irina-portrait.jpg" alt="Ирина Афонина">
+          <div class="person__photo photo-collage">
+            <div class="photo-collage__frame">
+              <img src="assets/images/irina-portrait.jpg" alt="Ирина Афонина">
+            </div>
           </div>
           <p class="eyebrow eyebrow--maroon">Постановка сервиса</p>
           <h3>Ирина Афонина</h3>
@@ -362,28 +376,36 @@
 
       <div class="grid grid--2">
         <article class="case">
-          <div class="case__photo"><img src="assets/images/case-bistro.jpg" alt="Семейное бистро с нуля"></div>
+          <div class="photo-collage">
+            <div class="photo-collage__frame"><img src="assets/images/case-bistro.jpg" alt="Семейное бистро с нуля"></div>
+          </div>
           <p class="eyebrow">HoReCa · под ключ</p>
           <h3>Семейное бистро с нуля</h3>
           <p>Чебоксары · +250% к плану продаж · 700 новых подписчиков за первую неделю</p>
         </article>
         <article class="case">
-          <div class="case__photo"><img src="assets/images/case-monogorod.jpg" alt="Сервис и гастрономия в моногороде"></div>
+          <div class="photo-collage">
+            <div class="photo-collage__frame"><img src="assets/images/case-hotel.jpg" alt="Сервис в сети отелей под ключ"></div>
+          </div>
+          <p class="eyebrow">HoReCa · сервис под ключ</p>
+          <h3>Сервис в сети отелей под ключ</h3>
+          <p>Мурманская область · 3 отеля · «Академия сервиса»: аудит → стандарты → обучение → контроль</p>
+        </article>
+        <article class="case">
+          <div class="photo-collage">
+            <div class="photo-collage__frame"><img src="assets/images/case-monogorod.jpg" alt="Сервис и гастрономия в моногороде"></div>
+          </div>
           <p class="eyebrow">Развитие территорий · HoReCa</p>
           <h3>Сервис и гастрономия в моногороде</h3>
           <p>Мурманская область · единые стандарты и СОП, чек-листы, KPI</p>
         </article>
         <article class="case">
-          <div class="case__photo"><img src="assets/images/case-coffee.jpg" alt="Инфлюенс-маркетинг для сети кофеен"></div>
-          <p class="eyebrow">Маркетинг · инфлюенс &amp; UGC</p>
-          <h3>Инфлюенс-маркетинг и UGC для сети кофеен</h3>
-          <p>UGC-конвейер под Reels и TikTok, культурные инфоповоды</p>
-        </article>
-        <article class="case">
-          <div class="case__photo"><img src="assets/images/case-wholesale.jpg" alt="Оптовое направление с нуля"></div>
-          <p class="eyebrow">B2B · продажи</p>
-          <h3>Оптовое направление с нуля</h3>
-          <p>+70 млн ₽ выручки · +40% к активной клиентской базе</p>
+          <div class="photo-collage">
+            <div class="photo-collage__frame"><img src="assets/images/case-gastroset.jpg" alt="Управление гастросетью из 9 объектов"></div>
+          </div>
+          <p class="eyebrow">HoReCa · управление сетью</p>
+          <h3>Управление гастросетью из 9 объектов</h3>
+          <p>Кофейни · бистро · рамённая · единые стандарты и KPI, финучёт</p>
         </article>
       </div>
     </div>
