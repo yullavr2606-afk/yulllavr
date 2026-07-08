@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>3/9 × Ирина Афонина — Комплексное развитие бизнеса</title>
-<meta name="description" content="Проектный офис 3/9 и эксперт по сервису Ирина Афонина: маркетинг, AI, управление и постановка сервиса под ключ.">
+<title>Юлия Лаврентьева × Ирина Афонина — Управление и сервис как система</title>
+<meta name="description" content="Юлия Лаврентьева и Ирина Афонина: операционное управление, системный сервис и рост бизнеса под ключ.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -78,7 +78,7 @@
 
 <header class="nav" id="nav">
   <div class="nav__inner container">
-    <a href="#top" class="nav__logo">3/9<span class="asterisk">*</span></a>
+    <a href="#top" class="nav__logo">Юлия <span class="nav__logo-sep">×</span> Ирина</a>
     <nav class="nav__links" id="navLinks">
       <a href="#about">О нас</a>
       <a href="#directions">Направления</a>
@@ -87,7 +87,7 @@
       <a href="#pricing">Стоимость</a>
       <a href="#contacts" class="nav__cta">Связаться</a>
     </nav>
-    <button class="nav__burger" id="navBurger" aria-label="Меню">
+    <button class="nav__burger" id="navBurger" aria-label="Меню" aria-expanded="false" aria-controls="navLinks">
       <svg width="24" height="24"><use href="#icon-menu"></use></svg>
     </button>
   </div>
@@ -96,15 +96,11 @@
 <main id="top">
 
   <!-- HERO -->
-  <section class="hero container" id="hero">
-    <div class="hero__leaf" aria-hidden="true">
-      <img src="assets/images/leaf-branch.jpg" alt="">
-    </div>
+  <section class="hero hero--wide container" id="hero">
     <div class="hero__content">
-      <p class="eyebrow eyebrow--maroon">Совместное коммерческое предложение</p>
-      <h1 class="hero__title">Комплексное развитие<br>бизнеса и территорий</h1>
+      <h1 class="hero__title">Управление и сервис,<br>которые дают измеримый рост</h1>
       <p class="hero__lead">Строим системы, которые увеличивают прибыль, повышают качество сервиса
-        и делают бизнес устойчивым. Девять направлений — одна цель: измеримый рост.</p>
+        и делают бизнес устойчивым.</p>
       <div class="hero__cta">
         <a href="https://t.me/yulllavr" target="_blank" rel="noopener" class="btn btn--primary">
           <svg width="18" height="18"><use href="#icon-telegram"></use></svg> Написать в Telegram
@@ -113,22 +109,12 @@
           <svg width="18" height="18"><use href="#icon-phone"></use></svg> Позвонить
         </a>
       </div>
-      <p class="hero__meta">Одна система · Девять направлений · Измеримый рост &nbsp;—&nbsp; Казань · 2026</p>
     </div>
-    <ul class="hero__sidebar" aria-label="Направления работы">
-      <li><span>01</span>Управление</li>
-      <li><span>02</span>Сервис</li>
-      <li><span>03</span>Данные</li>
-      <li><span>04</span>AI</li>
-      <li><span>05</span>Маркетинг</li>
-      <li><span>06</span>Территории</li>
-    </ul>
   </section>
 
   <!-- STATS BAR -->
   <div class="stats-bar">
     <div class="container stats-bar__inner">
-      <span><b>9</b> направлений работы</span>
       <span><b>12</b> лет опыта в сервисе</span>
       <span>команды до <b>200</b> человек</span>
       <span>Казань · <b>2026</b></span>
@@ -138,18 +124,26 @@
   <!-- О СОТРУДНИЧЕСТВЕ -->
   <section class="section" id="about">
     <div class="container">
-      <p class="eyebrow eyebrow--maroon">О сотрудничестве</p>
+      <div class="duo-photo">
+        <div class="photo-collage">
+          <div class="photo-collage__frame"><img src="assets/images/yulia-portrait.jpg" alt="Юлия Лаврентьева"></div>
+        </div>
+        <div class="photo-collage">
+          <div class="photo-collage__frame"><img src="assets/images/irina-portrait.jpg" alt="Ирина Афонина"></div>
+        </div>
+      </div>
+
+      <p class="eyebrow eyebrow--accent">О сотрудничестве</p>
       <h2 class="section__title">Вместе закрываем рост бизнеса целиком</h2>
-      <p class="section__lead">Объединили проектный офис 3/9 и эксперта по сервису Ирину Афонину
-        в одно предложение: ставим сервис как бизнес-систему и закрываем маркетинг, AI,
-        управление и развитие — под ключ.</p>
+      <p class="section__lead">Объединили управленческую экспертизу Юлии Лаврентьевой и сервисную
+        систему Ирины Афониной в одно предложение — под ключ.</p>
 
       <div class="grid grid--2">
         <div class="card card--outline">
-          <p class="eyebrow">Проектный офис 3/9</p>
-          <h3>Маркетинг, AI и управление</h3>
-          <p>9 направлений работы: продвижение, AI-системы, ведение проектов под ключ,
-            развитие территорий. Команда под задачу, результат в цифрах.</p>
+          <p class="eyebrow">Юлия Лаврентьева</p>
+          <h3>Управление и операционные системы</h3>
+          <p>Выстраиваю оргструктуру, операционные процессы и систему управления
+            в HoReCa и туризме — чтобы бизнес рос предсказуемо, а не держался на ручном контроле.</p>
         </div>
         <div class="card card--outline">
           <p class="eyebrow">Ирина Афонина · сервис</p>
@@ -166,7 +160,7 @@
   <!-- 9 НАПРАВЛЕНИЙ -->
   <section class="section section--tint" id="directions">
     <div class="container">
-      <p class="eyebrow eyebrow--maroon">Что мы предлагаем</p>
+      <p class="eyebrow eyebrow--accent">Что мы предлагаем</p>
       <h2 class="section__title">9 направлений работы</h2>
       <p class="section__lead">Одна система. Девять направлений. Измеримый рост и сильные результаты.</p>
 
@@ -232,7 +226,7 @@
   <!-- КАК МЫ РАБОТАЕМ -->
   <section class="section" id="process">
     <div class="container">
-      <p class="eyebrow eyebrow--maroon">Как мы работаем</p>
+      <p class="eyebrow eyebrow--accent">Как мы работаем</p>
       <h2 class="section__title">6 этапов — от запроса до результата</h2>
       <p class="section__lead">Прозрачный процесс. Понятные сроки. Измеримый результат.</p>
 
@@ -281,10 +275,10 @@
   <section class="section section--dark" id="service-system">
     <div class="container">
       <p class="eyebrow eyebrow--light">Ирина Афонина · сервис</p>
-      <h2 class="section__title section__title--light">6 системных решений для бизнеса</h2>
-      <p class="section__lead section__lead--light">Не тренинги «для галочки» — система, которая даёт измеримый результат.</p>
+      <h2 class="section__title section__title--light">7 продуктов для системного роста</h2>
+      <p class="section__lead section__lead--light">Не тренинги «для галочки» — продукты, которые дают измеримый результат.</p>
 
-      <div class="grid grid--3">
+      <div class="grid grid--4">
         <div class="solution">
           <svg width="26" height="26"><use href="#icon-orgchart"></use></svg>
           <h3>Единая оргструктура</h3>
@@ -315,6 +309,11 @@
           <h3>Система тайных покупателей</h3>
           <p>Прозрачный контроль качества на постоянной основе.</p>
         </div>
+        <div class="solution">
+          <svg width="26" height="26"><use href="#icon-rocket"></use></svg>
+          <h3>Стратегическая сессия</h3>
+          <p>Фасилитация решений и поддержка внедрения — отдельным продуктом.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -322,37 +321,31 @@
   <!-- КОМАНДА -->
   <section class="section" id="team">
     <div class="container">
-      <p class="eyebrow eyebrow--maroon">Команда</p>
+      <p class="eyebrow eyebrow--accent">Команда</p>
       <h2 class="section__title">Практики с опытом в бизнесе и сервисе</h2>
-      <p class="section__lead">Двое партнёров, две системы, один результат: управленческая архитектура
-        3/9 и постановка сервиса Ирины Афониной.</p>
+      <p class="section__lead">Двое партнёров, две системы, один результат: операционное управление
+        Юлии Лаврентьевой и постановка сервиса Ирины Афониной.</p>
 
       <div class="grid grid--2 team-grid">
         <article class="person">
-          <div class="person__photo photo-collage">
-            <div class="photo-collage__frame">
-              <img src="assets/images/yulia-portrait.jpg" alt="Юлия Лаврентьева">
-            </div>
+          <div class="person__photo person__photo--round">
+            <img src="assets/images/yulia-portrait.jpg" alt="Юлия Лаврентьева">
           </div>
-          <p class="eyebrow eyebrow--maroon">Проектный офис 3/9</p>
+          <p class="eyebrow eyebrow--accent">Управление и системы</p>
           <h3>Юлия Лаврентьева</h3>
-          <p class="person__role">Управляющий партнёр · управленческая архитектура</p>
           <ul class="person__tags">
             <li>HoReCa и туризм</li>
             <li>Развитие территорий</li>
-            <li>Постановка сервиса</li>
             <li>Операционное управление</li>
           </ul>
           <p class="person__stat"><strong>3</strong> аналитика в команде</p>
         </article>
 
         <article class="person">
-          <div class="person__photo photo-collage">
-            <div class="photo-collage__frame">
-              <img src="assets/images/irina-portrait.jpg" alt="Ирина Афонина">
-            </div>
+          <div class="person__photo person__photo--round">
+            <img src="assets/images/irina-portrait.jpg" alt="Ирина Афонина">
           </div>
-          <p class="eyebrow eyebrow--maroon">Постановка сервиса</p>
+          <p class="eyebrow eyebrow--accent">Постановка сервиса</p>
           <h3>Ирина Афонина</h3>
           <p class="person__role">Эксперт по сервису · партнёр</p>
           <ul class="person__tags">
@@ -370,11 +363,11 @@
   <!-- КЕЙСЫ -->
   <section class="section section--tint" id="cases">
     <div class="container">
-      <p class="eyebrow eyebrow--maroon">Кейсы</p>
+      <p class="eyebrow eyebrow--accent">Кейсы</p>
       <h2 class="section__title">Проекты с измеримым результатом</h2>
       <p class="section__lead">Работаем с бизнесом и территориями, выстраиваем систему и достигаем конкретных показателей.</p>
 
-      <div class="grid grid--2">
+      <div class="grid grid--3">
         <article class="case">
           <div class="photo-collage">
             <div class="photo-collage__frame"><img src="assets/images/case-bistro.jpg" alt="Семейное бистро с нуля"></div>
@@ -382,14 +375,6 @@
           <p class="eyebrow">HoReCa · под ключ</p>
           <h3>Семейное бистро с нуля</h3>
           <p>Чебоксары · +250% к плану продаж · 700 новых подписчиков за первую неделю</p>
-        </article>
-        <article class="case">
-          <div class="photo-collage">
-            <div class="photo-collage__frame"><img src="assets/images/case-hotel.jpg" alt="Сервис в сети отелей под ключ"></div>
-          </div>
-          <p class="eyebrow">HoReCa · сервис под ключ</p>
-          <h3>Сервис в сети отелей под ключ</h3>
-          <p>Мурманская область · 3 отеля · «Академия сервиса»: аудит → стандарты → обучение → контроль</p>
         </article>
         <article class="case">
           <div class="photo-collage">
@@ -401,11 +386,11 @@
         </article>
         <article class="case">
           <div class="photo-collage">
-            <div class="photo-collage__frame"><img src="assets/images/case-gastroset.jpg" alt="Управление гастросетью из 9 объектов"></div>
+            <div class="photo-collage__frame"><img src="assets/images/case-hotel.jpg" alt="Сервис в сети отелей под ключ"></div>
           </div>
-          <p class="eyebrow">HoReCa · управление сетью</p>
-          <h3>Управление гастросетью из 9 объектов</h3>
-          <p>Кофейни · бистро · рамённая · единые стандарты и KPI, финучёт</p>
+          <p class="eyebrow">HoReCa · сервис под ключ</p>
+          <h3>Сервис в сети отелей под ключ</h3>
+          <p>Мурманская область · 3 отеля · «Академия сервиса»: аудит → стандарты → обучение → контроль</p>
         </article>
       </div>
     </div>
@@ -414,7 +399,7 @@
   <!-- ФОРМАТЫ И СТОИМОСТЬ -->
   <section class="section" id="pricing">
     <div class="container">
-      <p class="eyebrow eyebrow--maroon">Состав и стоимость</p>
+      <p class="eyebrow eyebrow--accent">Состав и стоимость</p>
       <h2 class="section__title">Форматы работы</h2>
 
       <div class="grid grid--4">
@@ -431,7 +416,7 @@
         </div>
         <div class="price">
           <p class="price__name">Аудит</p>
-          <p class="price__value">от 50 000 ₽</p>
+          <p class="price__value">от 30 000 ₽</p>
           <p class="price__time">1–2 недели</p>
           <ul>
             <li>Интервью со стейкхолдерами</li>
@@ -442,8 +427,8 @@
         </div>
         <div class="price">
           <p class="price__name">Проект под ключ</p>
-          <p class="price__value">от 250 000 ₽</p>
-          <p class="price__time">1–12 месяцев</p>
+          <p class="price__value">от 150 000 ₽ / мес</p>
+          <p class="price__time">от 1 месяца</p>
           <ul>
             <li>Полный цикл: аудит → план → реализация</li>
             <li>Управление проектом</li>
@@ -468,7 +453,7 @@
   </section>
 
   <!-- КОНТАКТЫ / CTA -->
-  <section class="section section--dark" id="contacts">
+  <section class="section section--dark section--center" id="contacts">
     <div class="container">
       <p class="eyebrow eyebrow--light">Работаем вместе</p>
       <h2 class="section__title section__title--light">Начните с бесплатной диагностики</h2>
@@ -476,7 +461,7 @@
 
       <div class="grid grid--2">
         <div class="contact-card">
-          <p class="eyebrow eyebrow--light">Проектный офис 3/9</p>
+          <p class="eyebrow eyebrow--light">Управление и системы</p>
           <h3>Юлия Лаврентьева</h3>
           <div class="contact-card__links">
             <a href="https://t.me/yulllavr" target="_blank" rel="noopener"><svg width="18" height="18"><use href="#icon-telegram"></use></svg> @yulllavr</a>
@@ -493,7 +478,7 @@
         </div>
       </div>
 
-      <p class="callout callout--light"><span class="asterisk">*</span> Маркетинг, AI и управление — 3/9. Постановка сервиса — Ирина. Вместе — система роста.</p>
+      <p class="callout callout--light"><span class="asterisk">*</span> Управление и системы — Юлия. Постановка сервиса — Ирина. Вместе — система роста.</p>
     </div>
   </section>
 
@@ -501,9 +486,8 @@
 
 <footer class="footer">
   <div class="container footer__inner">
-    <a href="#top" class="nav__logo nav__logo--footer">3/9<span class="asterisk">*</span></a>
-    <p>Проектный офис · Казань · 2026</p>
-    <p class="footer__tags">управление · сервис · данные · AI · маркетинг · территории</p>
+    <a href="#top" class="nav__logo nav__logo--footer">Юлия <span class="nav__logo-sep">×</span> Ирина</a>
+    <p>Юлия Лаврентьева · Ирина Афонина · Казань · 2026</p>
   </div>
 </footer>
 
